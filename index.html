@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindMitra - Mental Health Support</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>MindMitra</h1>
+    <p>Empowering Your Mental Wellness Journey</p>
+  </header>
+  <nav>
+    <a href="#chat">Anonymous Chat</a>
+    <a href="#mood">Mood Check-In</a>
+    <a href="#meditation">Meditation</a>
+  </nav>
+  <section id="chat">
+    <div class="feature">
+      <h2>🧠 Anonymous Chat</h2>
+      <div id="chatBox" class="chat-box"></div>
+      <form id="chatForm">
+        <div class="form-group">
+          <input type="text" id="message" placeholder="Type your message..." required />
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+  <section id="mood">
+    <div class="feature">
+      <h2>😊 Mood Check-In</h2>
+      <form id="moodForm">
+        <div class="form-group">
+          <select id="mood" required>
+            <option value="">Select your mood</option>
+            <option value="Happy">Happy</option>
+            <option value="Sad">Sad</option>
+            <option value="Anxious">Anxious</option>
+            <option value="Stressed">Stressed</option>
+          </select>
+        </div>
+        <button type="submit">Submit Mood</button>
+      </form>
+      <p id="moodMessage"></p>
+    </div>
+  </section>
+  <section id="meditation">
+    <div class="feature">
+      <h2>🧘‍♀️ Meditation Resources</h2>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=inpok4MKVLM" target="_blank">5 Min Mindful Breathing</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ZToicYcHIOU" target="_blank">Body Scan Meditation</a></li>
+      </ul>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
+*/
+
